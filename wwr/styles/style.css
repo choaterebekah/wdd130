@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Monoton&display=swap');
 #content {
 max-width: 1600px;
 margin: 0 auto;
@@ -6,6 +7,7 @@ nav a {
     text-align: center;
     color: #1f2c5c;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #her-msg h4 {
     text-align: center
@@ -26,6 +28,13 @@ main section {
 
 body {
     background-color: #cfe8ef;
+    font-family: "Darker Grotesque", Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color: #1f2c5c;
@@ -38,6 +47,10 @@ nav a:hover {
     background-color: #ffbe0a;
     color: #1f2c5c;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #08839b;
@@ -49,24 +62,34 @@ nav a:hover {
 .msg {
     background-color:#cfe8ef;
     color: #08839b;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #1f2c5c;
     color: #cfe8ef;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 
 .home-title {
     color: #cfe8ef;
+    font-family: "Monoton Static", Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 { 
     color: #1f2c5c;
 }
 .msg h2 {
     color: #08839b;
+    font-family: "Monoton Static", Helvetica, sans-serif;
 }
 .msg p {
     color: #08839b;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a {
     color: #08839b;
@@ -82,6 +105,7 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -92,4 +116,23 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #1f2c5c;
+}
+
+main section img {
+    box-sizing: border-box;
 }
