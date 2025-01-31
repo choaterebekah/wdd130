@@ -11,7 +11,7 @@ nav a {
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
-    color:#de7c5a
+    color:#f7ef99
 }
 .button-box {
     text-align: center
@@ -66,7 +66,7 @@ nav a:hover {
     grid-row: 4/9;
 }
 .msg {
-    background-color:#de7c5a;
+    background-color:#f7ef99;
     color: #881600;
     line-height: 1.5em;
     padding: 35px;
@@ -86,13 +86,13 @@ footer {
 
 
 .home-title {
-    color: white;
+    color: #f7ef99;
     font-family: "Monoton Static", Helvetica, sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
 h4 { 
-    color: #e2f1af;
+    color: #f7ef99;
 }
 .msg h2 {
     color: #881600;
@@ -108,7 +108,7 @@ footer a {
     text-decoration: none;
 }
 footer a:hover {
-    color: #e2f1af;
+    color: #f7ef99;
 }
 
 
