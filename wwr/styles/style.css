@@ -204,6 +204,29 @@ nav{
 }
 
 
+/* CSS for page 2 "Q&A*/
+
+#qa {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#qa-msg {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    margin-top: 125px;
+    color:white;
+    background-color: #ef8a17;
+    text-align: center;
+}
+.children {
+    width: 100%;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
